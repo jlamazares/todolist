@@ -1,13 +1,49 @@
 @import "~bootstrap/scss/bootstrap.scss";
-
-/* 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+/*
 
     You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
+
+
+    ...Or you can use the import command to include
     other sylesheets into your bunde as well, e.j:
-    
+
     import 'relative/path/to/stylesheet.scss';
 
 */
+h3{
+    color:rgb(133, 132, 132);
+    font-family: 'Roboto', sans-serif;
+    font-size: 75px;
+    text-align: center;
+}
+#container{
+    background-color: #f0f0eb;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+}
+body{
+    background-image: url('https://images.pexels.com/photos/1422286/pexels-photo-1422286.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+     background-size: 125%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+button{
+    font-family:  'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(133, 132, 132);
+}
+label{
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+}
+form{
+     font-family: 'Roboto', sans-serif;
+}
+#items-pending{
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+    text-align: center;
+}
